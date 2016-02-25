@@ -3,7 +3,6 @@ body {
 }
 h1, h2 {
   font-size: 40px;
-  font-weight: bold;
   color: black;
   width: 90%;
   padding-top: 14 px;
@@ -15,13 +14,38 @@ h1, h2 {
 
 img,
 p {
-  width: 35%;
+  width: 40%;
   max-width: 500px;
   min-width: 300px;
-  margin:
+  margin-left: 20px;
 }
 
+
 .subhead {
-  font-size: 40px;
+  font-size: 50px;
   color: navy;
+  font-family: "sans-serif";
+  text-transform: inherit;
+}
+
+
+h3 {
+  font-siz
+  color: black
+  font-size: 40px;
+}
+
+
+img,
+p {
+  width: 15%;
+  max-width: 500px;
+  min-width: 300px;
+  margin-left: 20px;
+}
+
+
+h2 {
+  color: black;
+  font-size: 15px;
 }
