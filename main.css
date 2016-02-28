@@ -29,7 +29,7 @@ h1, h2 {
 }
 
 .review {
-  background-color: white;
+  background-color: #AEEEEE;
   padding: 8%;
   position: relative;
 }
@@ -55,15 +55,19 @@ h1, h2 {
 }
 
 
-h3 {
-  font-size: 30px;
+h4 {
+  font-size: 40px;
   color: black;
+  margin: 5%;
+
 }
 
+.synopsis {
+  background-color: cornsilk;
+}
 
-
-
-h2 {
-  color: black;
-  font-size: 15px;
+.synopsis p {
+  font-size: 28px;
+  margin-left: 5%;
+  margin-right: 5%;
 }
