@@ -66,6 +66,8 @@ h4 {
   background-color: lightyellow;
   width: 70%;
   padding-bottom: 2%;
+  position: relative;
+
 }
 
 .synopsis p {
@@ -77,7 +79,7 @@ h4 {
 
 h5 {
   font-size: 40px;
-  width: 950%;
+  width: 95%;
   color: navy;
 
 }
@@ -90,9 +92,9 @@ h5 {
 }
 
 .signoff {
-  font-size: 30px;
+  font-size: 50px;
 }
 
 .signoff p {
-  font-size: 35px;
+  font-size: 18px;
 }
