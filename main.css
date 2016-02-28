@@ -2,7 +2,7 @@ body {
   background-image: url("images/Japanese_paper_background.jpg");
 }
 h1, h2 {
-  font-size: 45px;
+  font-size:50px;
   color: black;
   width: 90%;
   padding-top: 14 px;
@@ -29,13 +29,14 @@ h1, h2 {
 }
 
 .review {
-  background-color: #AEEEEE;
-  padding: 8%;
+  background-color: lightcyan;
+  padding: 6%;
   position: relative;
+  font-size: 45px;
 }
 
 .review p {
-  font-size: 26px;
+  font-size: 38px;
 }
 
 .recliner{
@@ -56,18 +57,20 @@ h1, h2 {
 
 
 h4 {
-  font-size: 40px;
+  font-size: 45px;
   color: black;
   margin: 5%;
-
+  float: left;
 }
 
 .synopsis {
-  background-color: cornsilk;
+  background-color: lightyellow;
+  width: 75%;
+  padding-bottom: 2%;
 }
 
 .synopsis p {
-  font-size: 28px;
+  font-size: 33px;
   margin-left: 5%;
   margin-right: 5%;
 }
