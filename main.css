@@ -1,6 +1,16 @@
 body {
   background-image: url("images/Japanese_paper_background.jpg");
 }
+
+/* this fixes a common browser issue with floated elements */
+body::after {
+  visibility: hidden;
+  display: block;
+  content: "";
+  clear: both;
+  height: 0;
+}
+
 h1, h2 {
   font-size:60px;
   color: black;
@@ -17,7 +27,6 @@ h1, h2 {
   margin-left: 1%;
   display: block;
   float: left;
-
 }
 
 .kirkus {
@@ -64,10 +73,15 @@ h4 {
 
 .synopsis {
   background-color: lightyellow;
-  width: 70%;
+  /*width: 70%;*/
   padding-bottom: 2%;
   position: relative;
 
+  /* I added these lines to get this div to flow correctly */
+  width: 38%; /* updated width for the new layout */
+  margin-left: 2%;
+  float: left;
+  clear: left;
 }
 
 .synopsis p {
@@ -89,11 +103,27 @@ h5 {
   width: 50%;
   font-family: arial;
   margin-left: 5%;
+
+  /* I added these lines to get this div to flow correctly */
+  float: left;
+  margin-top: 5%;
+  margin-right: 5%;
 }
 
 .signoff {
   font-size: 50px;
   width: 50%;
+
+  /* I added these lines to get this div to flow correctly */
+  /* these match the styles I added for .reviews */
+  float: left;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+.signoff h5 {
+  text-align: center;
+  margin-bottom: 0;
 }
 
 .signoff p {

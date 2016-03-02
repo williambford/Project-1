@@ -20,10 +20,10 @@
           <p><i>Ford crafts some genuinely funny, strange, and sad moments in this novel... there are some inspired moments of lunacy. [Miracle Man] is an underdog story with wild, inventive craftsmanship."</i></p>
           <img class="recliner" src="images/recliner.jpg" />
         </div>
+      </div>
 
-
-
-      <div class="synopsis"</>
+      <!-- I moved the "synopsis" div out of your "kirkus" div, that's what was keeping it stuck to the right hand edge -->
+      <div class="synopsis"> <!-- you had "</>" at the end of this opening tag instead of ">" which was causing a whole bunch of issues down the line-->
         <h4>Sometimes life becomes so unbearable,</h4>
 
         <p>it's time to throw in the towel.</p>
@@ -37,9 +37,8 @@
         <p>MIRACLE MAN is the story about a different kind of faith. The faith to believe in yourself once again, long after everyone else has stopped.</p>
       </div>
 
-
-      <div class="reviews"</>
-        <h5 class="reviews"><i>FIVE-STAR REVIEWS ON AMAZON:</i></h5>
+      <div class="reviews"> <!-- you had "</>" at the end of this opening tag instead of ">" which was causing a whole bunch of issues down the line-->
+        <h5><i>FIVE-STAR REVIEWS ON AMAZON:</i></h5> <!-- removed recursive "reviews" class from this element -->
 
         <p><i>"You know you've read a good book when you don't want it to end. This bizarre tale made me laugh out loud, cry, and root for the title character."</i></p>
 
@@ -49,10 +48,10 @@
       </div>
 
 
-      <div class:"signoff"</>
-        <h5 class="signoff">Miracle Man by Bill Ford</h5>
-        <div class="signoff">
-          <p>Order your copy at Amazon.com<br> or from a bookstore near you.<br>
+      <div class="signoff"> <!-- you had "</>" at the end of this opening tag instead of ">" which was causing a whole bunch of issues down the line-->
+        <h5>Miracle Man by Bill Ford</h5> <!-- removed recursive "signoff" class from this element -->
+        <!-- you had an extra opening tag for a "signoff" div here, it was cauting formatitng issues down the line so I removed it -->
+        <p>Order your copy at Amazon.com<br> or from a bookstore near you.<br>
         You can contact Bill Ford at: <br> <i>miraclemanthenovel@gmail.com</i></p>
       </div>
 
