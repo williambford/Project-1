@@ -82,7 +82,8 @@ h4 {
 
   /* I added these lines to get this div to flow correctly */
   width: 48%; /* updated width for the new layout */
-  margin-left: 2%;
+  margin-left: 6%;
+  margin-top: 2%;
   float: left;
   clear: left;
 }
@@ -105,9 +106,9 @@ h5 {
 .reviews {
   background-color: rgb(212,245,233);
   font-size: 28px;
-  width: 35%;
+  width: 30%;
   font-family: arial;
-  margin-left: 5%;
+  margin-left: 7%;
   padding: 3%;
 
   /* I added these lines to get this div to flow correctly */
