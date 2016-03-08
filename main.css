@@ -69,6 +69,7 @@ h1, h2 {
 h4 {
   font-size: 40px;
   color: black;
+  margin-top: 8%;
   margin left: 5%;
   margin right: 5%:
   float: left;
@@ -91,7 +92,7 @@ h4 {
 
 .synopsis p {
   font-size: 33px;
-  margin-left: 7%;
+  margin-left: 8%;
   margin-right: 6%;
 }
 
@@ -101,12 +102,13 @@ h5 {
   width: 100%;
   color: navy;
   text-align: center;
+  margin-top: 2%;
 }
 
 .reviews {
   background-color: rgb(212,245,233);
   font-size: 27px;
-  width: 29%;
+  width: 31%;
   font-family: arial;
   margin-left: 5%;
   padding: 3%;
