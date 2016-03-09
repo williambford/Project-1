@@ -145,11 +145,8 @@ h5 {
   padding: 3%;
 }
 
-.signoff h5 {
-  font-size: 52px;
-  font-family: arial;
-  test-align: center;
-  margin-bottom: 3%;
+.book-attribution: {
+  width: 25%;
 }
 
 .signoff p {
