@@ -133,8 +133,9 @@ h5 {
   margin-bottom: 1%
 }
 
+
+
 .signoff {
-  font-size: 50px;
   width: 35%;
 
   /* I added these lines to get this div to flow correctly */
@@ -184,15 +185,15 @@ h5 {
 }
 
 .button.-border {
-  background: #FFFFFF;
-  border: 2px solid #2b90d9;
-  color: #2b90d9;
+  background: rgb(40,75,144);
+  border: 2px solid #FFFFFF;
+  color: #FFFFFF;
   text-decoration: none;
   font-family: sans-serif;
 }
 
 .button.-border:hover {
-  background: #2b90d9;
-  border-color: #2b90d9;
-  color: #FFFFFF;
+  background: #FFFFFF;
+  border-color: #FFFFFF;
+  color: rgb(40,75,144);
 }
