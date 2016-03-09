@@ -11,6 +11,12 @@ body::after {
   height: 0;
 }
 
+.book-title {
+  width: 75%;
+  padding: 8%;
+  margin-top: 4%;
+}
+
 h1, h2 {
   font-size:60px;
   color: black;
@@ -142,7 +148,7 @@ h5 {
 .signoff h5 {
   font-size: 52px;
   font-family: arial;
-  text-align: center;
+  test-align: center;
   margin-bottom: 3%;
 }
 
