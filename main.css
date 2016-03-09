@@ -40,6 +40,7 @@ h1, h2 {
 .review {
   background-color: azure;
   padding: 6%;
+  padding-top: 5%;
   position: relative;
   font-size: 45px;
 }
@@ -60,7 +61,7 @@ h1, h2 {
 .subhead {
   font-size: 90px;
   color: navy;
-  font-family: "sans-serif";
+  font-family: "arial";
   text-transform: inherit;
   text-align: center;
 }
@@ -78,7 +79,7 @@ h4 {
 .synopsis {
   background-color: lightyellow;
   /*width: 70%;*/
-  padding-bottom: 2%;
+  padding-bottom: 3.5%;
   position: relative;
   font-family: arial;
 
@@ -91,18 +92,24 @@ h4 {
 }
 
 .synopsis p {
-  font-size: 33px;
+  font-size: 34px;
   margin-left: 8%;
   margin-right: 6%;
 }
 
+.synopsis h4 {
+  margin-left: 8%;
+  margin-right: 6%;
+
+}
 
 h5 {
-  font-size: 40px;
+  font-size: 46px;
   width: 100%;
   color: navy;
   text-align: center;
   margin-top: 2%;
+  margin-bottom: 7%
 }
 
 .reviews {
@@ -117,7 +124,7 @@ h5 {
   float: left;
   margin-top: 2%;
   margin-right: 2%;
-  margin-bottom: 10%
+  margin-bottom: 1%
 }
 
 .signoff {
@@ -129,15 +136,14 @@ h5 {
   float: right;
   margin-right: 0%;
   margin-left: 2%;
-  background-color: white;
   padding: 3%;
 }
 
 .signoff h5 {
-  font-size: 50px;
+  font-size: 52px;
   font-family: arial;
   text-align: center;
-  margin-bottom: 20;
+  margin-bottom: 13%;
 }
 
 .signoff p {
